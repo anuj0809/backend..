@@ -1,0 +1,15 @@
+Some of the methods we can use to ensure scalability in our API.
+
+
+1. Security - Using encryption and decryption methods to ensure more secure authentication mechanism. Currently, I have stored the passwords directly in the database.
+              But we can use libraries like bcrypt to store hashed passwords and validate those hashed passwords. 
+
+2. Testing - Conducting load testing to identify performance limits and ensure the system can handle expected traffic. Using proper testing methodologies ensures less errors on production.  
+
+3. Load balancing - We can deploy API on cloud in an auto scale group and setup with appropriate Load Balancer like AWS to scale up and scale down our applications.
+
+4. MySQL - For small scale applications, it is okay to use SQLite. But on a large scale, we need to migrate to MySQL database as it provides better performane, concurrency and transaction support for ACID properties. 
+
+5. Caching - We can do In-Memory caching using Redis. Doing that lets the API get data faster because there is no need to retrieve it from the database. 
+
+6. Error Handling - Provide clear and helpful error messages that explain the cause and solution of the error. We also need to use error handlling while modifying aur fetching data using Try- Except blocks.
