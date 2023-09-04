@@ -2,7 +2,7 @@
 
 ### Project Structure:
 
-![Screenshot (70)]()
+![Screenshot (70)](https://github.com/anuj0809/backend../blob/main/1.png)
 
 ### Setting Up the Environment:
 
